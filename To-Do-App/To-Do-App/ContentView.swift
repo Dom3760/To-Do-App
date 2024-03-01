@@ -101,7 +101,7 @@ struct ContentView: View {
     // deleteItems will accept a parameter that will inject the item on the list that will be removed
     func deleteItems(at offsets: IndexSet)
     {
-        //it will then remove the injected item off the list and then subtract 1 from the number of items
+        //it will then remove the injected item off the list and then subtract 1 from the number of items.
         items.remove(atOffsets: offsets)
         num -= 1
     }
